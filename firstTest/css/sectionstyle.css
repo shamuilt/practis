@@ -1,0 +1,91 @@
+.firstsection {
+    background-image: url(../img/dietary-menu-healthy-vegan-salad-vegetables-broccoli-mushrooms-spinach-quinoa-bowl-flat-lay-top-view.jpg);
+    width: 100%;
+    height: 1000px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+@media(max-width: 768px) {
+    .firstsection .saletext {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+.firstsection .saletext .sale {
+    width: 225px;
+    height: 225px;
+    background-color:#99e54d;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#1a1a1a;
+    flex-direction: column;
+}
+
+.firstsection .saletext .sale h2 {
+    font-size: 60px;
+}
+
+.firstsection .saletext .sale h6 {
+    font-size: 1.125rem;
+    padding: 10px 40px;
+    text-align: center;
+
+}
+
+.firstsection .saletext .title {
+    padding-right: 60%;
+    
+}
+
+@media(max-width: 768px) {
+    .firstsection .saletext .title {
+        padding-right: 0;        
+    }
+}
+
+.firstsection .saletext .title h6 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+@media(max-width: 768px) {
+    .firstsection .saletext .title h6 {
+        text-align: center;
+    }
+}
+@media(max-width: 1320px) {
+    .firstsection .saletext .title h6 {
+        text-align: center;
+    }
+}
+
+.firstsection .saletext .title h1{
+    font-size: 3.75rem;
+    margin: 21px 60px 0 0;
+}
+
+@media(max-width: 768px) {
+    .firstsection .saletext .title h1{
+        text-align: center;
+        font-size: 48px;
+        margin: 21px 0 0 0;
+    }
+}
+
+.firstsection .saletext .bottom a {
+    background-color: #F1Ae0E;
+    color: #ffff;
+    padding: 16px 46px 17px;
+    display: inline-block;
+    margin: 30px auto 0 0;
+    border-radius: 30px;
+}
+

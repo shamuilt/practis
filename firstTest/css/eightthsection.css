@@ -1,0 +1,77 @@
+.eightthsection {
+    background-image: url(/firstTest/img/backgroundImg/vegetables-set-left-black-slate.jpg);
+    width: 100%;
+    height: 745px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.eightthsection .saletext {
+    margin: 60px;
+    padding: 60px;
+}
+
+.eightthsection .saletext .sale {
+    width: 225px;
+    height: 225px;
+    border-radius: 100%;
+    background-color: #99e54d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #111; 
+       
+}
+
+.eightthsection .saletext .sale h2{
+    font-size: 60px; 
+       
+}
+
+.eightthsection .saletext .sale h6 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.eightthsection .saletext .title h2 {
+    margin-top: 90px;
+    font-size: 48px;
+}
+
+.eightthsection .saletext .title p {
+    margin-top: 31px;
+    font-size: 18px;
+}
+
+.eightthsection .saletext .submit_bottom_Flex {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    font-size: 1rem;
+    margin: 30px 483px 60px 0;
+}
+
+.eightthsection .saletext .submit_bottom_Flex .submit {
+    margin: 21px;
+}
+
+.eightthsection .saletext .submit_bottom_Flex .bottom a {
+    text-decoration: none;
+    background-color:#99e54d;
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-size: 16px;
+    color: #111;
+}
+
+
+.eightthsection .saletext .submit_bottom_Flex .submit input {
+    border-width: 2px;
+    border-radius: 20px;
+    border-style: solid;
+    padding: 10px 12px;
+
+}

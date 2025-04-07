@@ -1,0 +1,71 @@
+.sixthsection .h2Sixth_Section {
+    text-align: center;
+}
+
+.sixthsection .h2Sixth_Section h2 {
+    margin: 60px 30px;
+    font-size: 3rem;
+    line-height: 1.1;
+    font-weight: 700;
+    font-family: "Montserrat", serif;
+}
+
+.sixthsection .cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sixthsection .cards .card {
+    width: 100%;
+    padding: 10px;
+
+}
+
+@media(min-width:768px){
+
+    .sixthsection .cards .card {
+        width: 50%;
+        padding: 10px;
+    
+    }
+
+}
+
+.sixthsection .cards .card .cardItems {
+    width: 100%;
+    
+}
+
+.sixthsection .cards .card .cardItems .imge {
+    width: 100%;
+    height: 484px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.sixthsection .cards .card .cardItems .imge img {
+    width: 100%;
+    height: 100%;
+    object-position: cover;
+
+}
+
+.sixthsection .cards .card .cardItems h6 {
+    font-size: 18px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.sixthsection .cards .card .cardItems .bottom {
+    display: flex;
+    justify-content: center;
+}
+.sixthsection .cards .card .cardItems .bottom a {
+    border-radius: 50px;
+    background-color: #99e54d;
+    padding: 16px 43px 16px 43px;
+    text-decoration: none;
+    color: black;
+    
+}
+

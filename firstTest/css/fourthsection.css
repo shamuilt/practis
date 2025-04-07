@@ -1,0 +1,40 @@
+.fourthsection {
+    margin-bottom: 47px;
+    margin-top: 47px;
+}
+
+.fourthsection .cards{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.fourthsection .cards .card {
+    width: 100%;
+    padding: 10px;
+}
+
+@media (min-width: 768px){
+    .fourthsection .cards .card{
+        width: 33.333%;
+    }
+
+}
+
+
+.fourthsection .cards .card .cardItems {
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.fourthsection .cards .card .cardItems .imge {
+    width: 100%;
+    height: 375px;
+}
+
+.fourthsection .cards .card .cardItems .imge img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+       
+}

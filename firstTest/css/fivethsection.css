@@ -1,0 +1,76 @@
+.fivethsection {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.fivethsection .cards {
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+.fivethsection .cards .card {
+    width: 100%;
+    padding: 30px;
+}
+
+@media (min-width:768px){
+    .fivethsection .cards .card {
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px){
+    .fivethsection .cards .card {
+        width: 50%;
+    }
+}
+
+.fivethsection .cards .card .cardItems{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.fivethsection .cards .card .cardItems .imge {
+    width: 100%;
+    height: 559px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.fivethsection .cards .card .cardItems .imge img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fivethsection .cards .card .cardItems.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+.fivethsection .cards .card .cardItems h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 20px 137px 0 1px;
+}
+
+.fivethsection .cards .card .cardItems h6 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 21px 0 0 0;
+}
+
+.fivethsection .cards .card .cardItems p {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    margin: 23px 0 0 0;
+    padding-right: 23px;
+    font-family: "Open Sans";
+}

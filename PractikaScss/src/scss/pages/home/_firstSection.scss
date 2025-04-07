@@ -1,0 +1,59 @@
+.firstSection {
+  position: relative;
+  .backColler {
+    width: 100%;
+    height: 465px;
+    background-color: #f97c37;
+    inset: 0;
+  }
+
+  .imageFor_FirstSection {
+    overflow: hidden;
+    position: absolute;
+    top: -384px;
+    right: 0;
+
+    .img {
+      width: 963px;
+      height: 651px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .textFirst_Section {
+    position: absolute;
+    bottom: -379px;
+    left: 0;
+    z-index: 3;
+    background-color: #fff;
+    color: #333;
+    width: 471px;
+    height: 504px;
+
+    h1 {
+      font-size: 48px;
+      font-weight: 400;
+      font-size: 3rem;
+      line-height: 1.1;
+      word-wrap: break-word;
+    }
+
+    p {
+      font-size: 20px;
+      margin: 45px 0 0;
+      word-wrap: break-word;
+      text-align: left;
+    }
+
+    // .linkFor_FirstSection {
+    //     a{
+
+    //     }
+    // }
+  }
+}
